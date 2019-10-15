@@ -1,0 +1,10 @@
+#virtual environment
+env/
+
+#embeddings
+embeddings/*.pck
+
+# models
+models/*.h5
+
+
