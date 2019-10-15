@@ -12,13 +12,13 @@
 The model given runs on python 2 and the Wikimedia API only runs on python 3 because of this, the script can only be run using python 3.
 
 
-When *extract_and_classify.py* is run, it gives output a "prediction" score of each sentence.
+When `extract_and_classify.py` is run, it gives output a **prediction** score of each sentence.
 
 To run this app, you need to have python 3 installed and create virtual environment using `virtualenv env`
 
 - activate virtual environment using `source env/bin/activate`
 - Install necessary libraries using `pip install -r requirements.txt`
--run the script, you can use the following command:
+- run the script, you can use the following command:
 
 	```
 	python extract_and_classify.py -m models/fa_en_model_rnn_attention_section.h5 -v embeddings/word_dict.pck -s embeddings/section_dict.pck -o output_folder
